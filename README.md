@@ -29,7 +29,6 @@ The original line of code is listed as:
 ticker = 'TSLA'
 start_date = '2018-01-01'
 end_date = '2021-12-31'
-Users may choose any stock or crypto under "ticker" as well as any time period for the start and end dates. The date format must be in YYYY-MM-DD. To choose a crypto, the function get_stock_data() must be replaced with get_crypto_data().
 
 In order to change the moving average window periods to be tested, users can edit the range in the following line of code:
 
