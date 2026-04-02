@@ -34,6 +34,7 @@ In order to change the moving average window periods to be tested, users can edi
 
 fast_periods = np.arange(1,21,2, dtype=int)
 slow_periods = np.arange(10,200,10, dtype=int)
+
 The first number is the start of the range, the second number is the end of the range, and the third number is the number of integers to skip in the gridsearch. In this example, the fast period is a range from 1 to 21 and skips every 2 numbers.
 
 Once the customizations are complete, run the cells in order to view the results.
@@ -66,7 +67,7 @@ image
 
 Google Colab
 
-In the instance one would like to access the project via Google Colab and the project cannot be viewed in this Repository, please use the following link: https://colab.research.google.com/drive/1N6bBfsWvvmnC4eSdUBjZxEiiTKTv5gKb?authuser=2#scrollTo=UcwXodioqwZK
+In the instance one would like to access the project via Google Colab and the project cannot be viewed in this Repository, please use the following link: https://colab.research.google.com/drive/1N6bBfsWvvmnC4eSdUBjZxEiiTKTv5gKb
 
 Contributors
 
